@@ -611,7 +611,8 @@ section h1 {
 .dia3,
 .dia4,
 .dia5,
-.dia6 {
+.dia6,
+.dia7 {
   display: flex;
   align-items: flex-start;
   background-color: #ffffff;
@@ -633,7 +634,8 @@ section h1 {
 .dia3:hover,
 .dia4:hover,
 .dia5:hover,
-.dia6:hover {
+.dia6:hover,
+.dia7:hover {
   box-shadow: 0 8px 24px rgba(37, 99, 235, 0.18);
   transform: translateY(-3px);
 }
@@ -658,7 +660,8 @@ section h1 {
 .dia3 h4,
 .dia4 h4,
 .dia5 h4,
-.dia6 h4 {
+.dia6 h4,
+.dia7 h4 {
   font-family: 'Inter', Helvetica, sans-serif;
   font-size: 1.2rem;
   font-weight: 600;
@@ -675,7 +678,8 @@ section h1 {
 .dia3 p,
 .dia4 p,
 .dia5 p,
-.dia6 p {
+.dia6 p,
+.dia7 p {
   font-family: 'Inter', Helvetica, sans-serif;
   font-size: 0.95rem;
   text-align: justify;
@@ -689,7 +693,8 @@ section h1 {
 .dia3 p:last-child,
 .dia4 p:last-child,
 .dia5 p:last-child,
-.dia6 p:last-child {
+.dia6 p:last-child,
+.dia7 p:last-child {
   margin-bottom: 0;
 }
 
@@ -794,7 +799,8 @@ section h1 {
   .dia3,
   .dia4,
   .dia5,
-  .dia6 {
+  .dia6,
+  .dia7 {
     flex-direction: column;
     gap: 15px;
     padding: 20px;
@@ -804,7 +810,8 @@ section h1 {
   .dia3 > img,
   .dia4 > img,
   .dia5 > img,
-  .dia6 > img {
+  .dia6 > img,
+  .dia7 > img {
     width: 100%;
     height: auto;
   }

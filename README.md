@@ -1,6 +1,6 @@
 # Proyecto RACC: Jóvenes y Movilidad 
 
-¡Hola! Este es el repositorio principal de nuestro proyecto para el concurso del RACC sobre "Jóvenes y Movilidad". Aquí hemos montado una página web completa e interactiva utilizando las bases pilonas del desarrollo Front-End: **HTML**, **CSS** y **JavaScript**, más un toque de **Python** fuera de cámara para preparar y masticar el volumen de los datos.
+¡Hola! Este es el repositorio principal de nuestro proyecto para el concurso del RACC sobre "Jóvenes y Movilidad". Aquí hemos montado una página web completa e interactiva utilizando las bases del desarrollo Front-End: **HTML**, **CSS** y **JavaScript**, más un toque de **Python** fuera de cámara para preparar y masticar el volumen de los datos.
 
 Como estudiantes que hemos estado este año a tope aprendiendo estructuración en HTML, hojas de estilo y JS, decidimos ponerlo todo a prueba montando gráficos, minijuegos y carruseles nosotros mismos (sin hacer trampa con bibliotecas externas que lo hagan todo por detrás). Te explico paso a paso cómo lo hemos codificado y pensado:
 
