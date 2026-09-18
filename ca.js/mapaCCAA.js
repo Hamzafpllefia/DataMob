@@ -17,7 +17,7 @@ function crearMapaCCAA(
     colorBorde = "#020617",
     escalaColores = d3.interpolateBlues,
     padding = { top: 32, right: 16, bottom: 32, left: 16 },
-    titulo = `Muertes por comunidad autónoma (${año})`,
+    titulo = `Víctimas por comunidad autónoma (${año})`,
   } = opciones;
 
   container.select("svg").remove();
@@ -79,7 +79,7 @@ function crearMapaCCAA(
 
   const maxValor = d3.max(valores, (d) => d.valor) || 1;
 
-  // Mapa en escala azul: mayor muertes = azul más oscuro
+  // Mapa en escala azul: mayor número de víctimas = azul más oscuro
   const color = d3
     .scaleSequential(escalaColores)
     .domain([0, maxValor]);
@@ -152,7 +152,7 @@ function crearMapaCCAA(
 
     const labelYear = año === "total" ? "totales (2016-2024)" : año;
     showTooltip(
-      `<strong>${nombre}</strong><br/>Muertes ${labelYear}: <strong>${d3.format(",")(valor)}</strong>`,
+      `<strong>${nombre}</strong><br/>Víctimas ${labelYear}: <strong>${d3.format(",")(valor)}</strong>`,
       event.pageX,
       event.pageY,
     );
@@ -196,7 +196,7 @@ function crearMapaCCAA(
     const registro = datosPorComunidad[nombre];
     const valor = registro && registro[año] != null ? +registro[año] : 0;
     const labelYear = año === "total" ? "totales (2016-2024)" : año;
-    const texto = `<strong>${nombre}</strong><br/>Muertes ${labelYear}: <strong>${d3.format(",")(valor)}</strong>`;
+    const texto = `<strong>${nombre}</strong><br/>Víctimas ${labelYear}: <strong>${d3.format(",")(valor)}</strong>`;
 
     showTooltip(texto, event.pageX, event.pageY);
     showClickInfo(texto);
